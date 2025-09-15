@@ -1,1 +1,1 @@
- // cout<<sum<<" ";
+column++;

@@ -6,11 +6,10 @@ int main(){
     int row=1;
     while(row<=n){
         int column=1;
-        while(column<=n){
-            char ch='A'+row-1;
-            cout<<ch;
-            cout<<" ";
-            // ch++;
+        while(column<=row){
+            char ch='A'+column;
+            cout<<ch<<" ";
+            ch++;
             column++;
         }
         cout<<endl;
